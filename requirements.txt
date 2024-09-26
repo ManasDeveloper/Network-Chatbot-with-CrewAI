@@ -1,2 +1,3 @@
 crewai
 crewai_tools
+chromadb==0.3.29
