@@ -5,7 +5,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-api_key = st.sidebar.text_input("Enter the OpenAI API Key")
+api_key = st.sidebar.text_input("Enter the OpenAI API Key",type="password")
 
 os.environ["OPENAI_API_KEY"] = api_key
 
